@@ -1,0 +1,380 @@
+body {
+    margin: 0;
+    background-color: #4a4a4a;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    padding: 15px 30px;
+}
+
+nav ul {
+    display: flex;
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color:white;
+    font-size: 30px;
+    transition: color 0.3s ease;
+    
+}
+
+nav a:hover {
+    color: aquamarine;
+    text-decoration: underline;
+}
+
+
+
+.logopic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+
+.float-text {
+  text-align: left;
+  color:white;
+    width: 150px;
+    margin-right: 15px;
+    font-size: 110px;
+    display: inline-block;
+}
+
+.intro {
+    color: black;
+    font-size: 30px;
+}
+
+.project-text {
+    text-align: center;
+}
+
+.project-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+
+}
+
+.project-images img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.project-item {
+    display: flex;
+    flex-direction: column;
+align-items: center;
+text-align: center;
+}
+
+.project-item p {
+    margin-top: 20px;
+    font-size: 40px;
+}
+
+.project-item a {
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s ease;
+
+}
+
+    .project-item a:hover {
+        color: white;
+        text-decoration: underline;
+    
+    }
+
+
+.about-container {
+    display: flex;
+    max-width: 960x;
+    width: 100%;
+    margin: 0 auto;
+    padding: 60px;
+    border-radius: 12px;
+    gap: 60px;
+    align-items: center;
+    box-sizing: border-box;
+}
+.left-column {
+    flex: 1;
+    text-align: left;
+}
+
+.graphicslogo {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 25px;
+    flex-shrink: 0;
+}
+
+.right-column {
+    flex: 1.5;
+    text-align: center;
+    min-width: 0;
+}
+
+.right-column h2 {
+    font-size: 1.5rem;
+    margin-bottom: 16px;
+}
+
+.right-column p {
+    font-size: 1.25rem;
+    line-height: 1.7;
+    margin-bottom: 16px;
+}
+
+.instagram-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    gap: 10px;
+}
+
+.instagram-icon {
+    width: 50px;
+    height: auto;
+    transition: transfrom 0.3s ease, opacity 0.2 ease;
+}
+
+.instagram-icon:hover {
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+.instagram-container h2 {
+    margin: 0;
+}
+
+.contact {
+    font-size: 50px;
+}
+
+.portrait-container {
+    text-align: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+
+}
+
+.portrait {
+    flex: 0 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.portrait img {
+    width: 100%;
+    max-width: 500px; 
+    height: auto;
+    aspect-ratio: 3/4;
+    object-fit: cover;
+    border-radius: 8px;
+    display: block;
+}
+
+.content-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 25px
+}
+
+.portrait-description {
+    flex: 1;
+    margin: 0;
+    text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+.portrait-container2 {
+    text-align: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+
+}
+
+.chimera {
+    flex: 0 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.chimera img {
+    width: 100%;
+    max-width: 500px; 
+    height: auto;
+    aspect-ratio: 3/4;
+    object-fit: cover;
+    border-radius: 8px;
+    display: block;
+}
+
+.content-wrapper2 {
+    display: flex;
+    align-items: center;
+    gap: 25px
+}
+
+.chimera-description {
+    flex: 1;
+    margin: 0;
+    text-align: left;
+}
+
+
+
+
+
+
+
+.portrait-container3 {
+    text-align: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+
+}
+
+.netsg {
+    flex: 0 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.netsg img {
+    width: 100%;
+    max-width: 500px; 
+    height: auto;
+    aspect-ratio: 3/4;
+    object-fit: cover;
+    border-radius: 8px;
+    display: block;
+}
+
+.content-wrapper3 {
+    display: flex;
+    align-items: center;
+    gap: 25px
+}
+
+.nets-description {
+    flex: 1;
+    margin: 0;
+    text-align: left;
+}
+
+
+
+
+
+
+.portrait-container4 {
+    text-align: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+
+}
+
+.nyknicks {
+    flex: 0 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.nyknicks img {
+    width: 100%;
+    max-width: 500px; 
+    height: auto;
+    aspect-ratio: 3/4;
+    object-fit: cover;
+    border-radius: 8px;
+    display: block;
+}
+
+.content-wrapper4 {
+    display: flex;
+    align-items: center;
+    gap: 25px
+}
+
+.knicks-description {
+    flex: 1;
+    margin: 0;
+    text-align: left;
+}
+
+.portrait-description {
+    color: white;
+    font-size: 30px;
+}
+
+.chimera-description {
+    color: white;
+    font-size: 30px;
+}
+
+.nets-description {
+    color: white;
+    font-size: 30px;
+}
+
+.knicks-description {
+    color: white;
+    font-size: 30px;
+}
+
+.left-column {
+    color: white;
+    font-size: 30px;
+}
+
+.right-column {
+    color: white;
+    font-size: 30px;
+}
